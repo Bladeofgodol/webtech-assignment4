@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html lang="en"; style="background-color: rgb(16, 21, 29);">
+<html lang="en"; style="background-color: #10151d;">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+    .button{
+        width: 100%; 
+        padding: 3% 10%;
+        transition-duration: 0.3s;
+        border: 2px solid #00a2ff;;
+        font-size: 20px;
+        cursor: pointer;
+        
+    }
+    .button:hover{
+        background-color: #00a2ff;
+        color: white;
+        
+    }
+
+</style>
 <header style="background-color: black;" >
         <h1 style="color:white; text-align:center; padding: 25px;">CAD Render Site</h1>
 </header>
 <body>
-    <div style="background-color: skyblue; border-style: dotted; width: 100%; height: 200px;">
-        <h2 style="color:white; text-align:center; padding-top: 5%;">Drag CAD file to upload here</h2>
+    <div style="background-color: lightgray; border-style: dotted; width: 100%; height: 200px; display: flex; justify-content: center; align-items: center;">
+        <h2 style="color:white;">Drag CAD file to upload here</h2>
     </div>
     <div style="width: 50%; margin:auto; margin-top:5%;">
-        <button style="width: 100%; padding: 3% 10%;"> Choose file</button>
+        <button class="button" > Choose file</button>
     </div>
     
 </body>
